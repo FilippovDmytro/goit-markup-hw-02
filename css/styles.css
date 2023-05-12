@@ -14,7 +14,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color text: #434455;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -165,7 +165,7 @@ body {
   background: var(--navy-blue);
 }
 .menu-text {
-  color:var(--navy-blue);
+  color: var(--navy-blue);
 }
 .menu-letter {
   color: #434455;
