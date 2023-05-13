@@ -36,7 +36,7 @@ body {
   color: var(--navy-blue);
 }
 
-.menu-item .page-address {
+.menu-item {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -51,7 +51,16 @@ body {
   color: var(--action-color);
 }
 .menu-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
+}
+.page-address {
+  font-style: normal;
 }
 
 .menu-mail {
@@ -110,7 +119,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-text);
+  color: var(--slate);
 }
 .products {
   background-color: var(--cloud);
@@ -142,6 +151,7 @@ body {
   background-color: #ffffff;
 }
 .team-item {
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .footer {
