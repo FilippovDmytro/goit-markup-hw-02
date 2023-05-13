@@ -1,11 +1,11 @@
 :root {
- 
   --primary-brand: #4d5ae5;
   --navy-blue: #2e2f42;
   --subtle-text: #8e8f99;
   --cloud: #f4f4fd;
   --action-color: #404bbf;
-  --white:#FFFFFF;
+  --white: #ffffff;
+  --slate: #434455;
 }
 
 .link {
@@ -15,27 +15,12 @@
   list-style: none;
 }
 body {
-font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: var(--slate);
-background-color: var(--background-white);
-}
-
-.micro-text {
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color text);
-}
-.mini-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-color-text var(--color text);
+  color: var(--slate);
+  background-color: var(--white);
 }
 
 .logo-img {
@@ -51,40 +36,41 @@ color-text var(--color text);
   color: var(--navy-blue);
 }
 
-.menu-item{
-font-family: 'Roboto';
-font-style: normal;
-font-weight:500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--navy-blue);
+.menu-item .page-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .menu-item :hover,
 .menu-item :focus {
   color: var(--action-color);
 }
-.menu-link{
-  color: var(--navy-blue)
+.menu-link {
+  color: var(--navy-blue);
 }
 
-
-.menu-mail{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.menu-mail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .menu-mail:hover,
 .menu-mail:focus {
   color: var(--action-color);
 }
-
+.hero {
+  background-color: var(--navy-blue);
+}
 .title {
   font-weight: 700;
   font-size: 56px;
@@ -108,7 +94,7 @@ color: #434455;
 .btn-title:focus {
   background: var(--action-color);
 }
-.techno-work {
+.work {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -118,6 +104,12 @@ color: #434455;
   color: var(--navy-blue);
 }
 .item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--body-text);
 }
 .products {
@@ -132,6 +124,9 @@ color: #434455;
   text-align: center;
   text-transform: capitalize;
 }
+.our-team {
+  background-color: #f4f4fd;
+}
 .team {
   font-weight: 700;
   font-size: 36px;
@@ -143,18 +138,14 @@ color: #434455;
   text-transform: capitalize;
 }
 .team-list {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
-.mark-position .tom-position .camila-position .daniel-position {
+.team-item {
   color: #434455;
+}
+.footer {
+  background-color: var(--navy-blue);
 }
 .footer-img {
   font-family: "Raleway", sans-serif;
@@ -181,16 +172,16 @@ color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:var(--primary-brand);
+  color: var(--primary-brand);
   cursor: pointer;
-  background:var(--cloud);
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-
+  background: var(--cloud);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .btn:hover,
-.btn:focus { color: var(--white);
-background: var(--action-color);
+.btn:focus {
+  color: var(--white);
+  background: var(--action-color);
 }
 
 .menu-text {
