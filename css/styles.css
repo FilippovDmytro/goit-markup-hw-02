@@ -1,11 +1,11 @@
 :root {
-  --color text:#2e2f42 ;
-  color: ;
+ 
   --primary-brand: #4d5ae5;
   --navy-blue: #2e2f42;
   --subtle-text: #8e8f99;
   --cloud: #f4f4fd;
   --action-color: #404bbf;
+  --white:#FFFFFF;
 }
 
 .link {
@@ -15,9 +15,12 @@
   list-style: none;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--slate);
+background-color: var(--background-white);
 }
 
 .micro-text {
@@ -48,31 +51,37 @@ color-text var(--color text);
   color: var(--navy-blue);
 }
 
-.menu {
-  color: #2e2f42;
+.menu-item{
+font-family: 'Roboto';
+font-style: normal;
+font-weight:500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--navy-blue);
 }
 
-.menu :hover,
-.menu :focus {
+.menu-item :hover,
+.menu-item :focus {
   color: var(--action-color);
 }
-
-.address-mail {
-  font-style: normal;
-  color: var(--body-text);
-}
-.address-tel {
-  font-style: normal;
-  color: var(--body-text);
+.menu-link{
+  color: var(--navy-blue)
 }
 
-.address-mail:hover,
-.address-mail:focus {
-  color: var(--action-color);
+
+.menu-mail{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 
-.address-tel:hover,
-.address-tel:focus {
+.menu-mail:hover,
+.menu-mail:focus {
   color: var(--action-color);
 }
 
@@ -165,36 +174,25 @@ color-text var(--color text);
 
 /*========PORTFOLIO===========*/
 
-.all-btn {
+.btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background: var(--primary-brand);
+  color:var(--primary-brand);
   cursor: pointer;
+  background:var(--cloud);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
 }
-.all-btn:hover,
-.all-btn:focus {
-  background: var(--navy-blue);
+.btn:hover,
+.btn:focus { color: var(--white);
+background: var(--action-color);
 }
-.web-btn {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--primary-brand);
-  background: var(--cloud);
-  cursor: pointer;
-}
-.web-btn:hover,
-.web-btn:focus {
-  background: var(--navy-blue);
-}
+
 .menu-text {
   color: var(--navy-blue);
   font-size: 20px;
