@@ -1,5 +1,5 @@
 :root {
-  color: ;
+  --color text:#2e2f42 ;
   color: ;
   --primary-brand: #4d5ae5;
   --navy-blue: #2e2f42;
@@ -25,12 +25,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--color text);
 }
 .mini-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+color-text var(--color text);
 }
 
 .logo-img {
@@ -81,7 +83,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  background-color: #2e2f42;
+  background-color: var(--navy-blue);
 }
 .btn-title {
   font-family: "Roboto", sans-serif;
@@ -97,7 +99,7 @@ body {
 .btn-title:focus {
   background: var(--action-color);
 }
-.work-item {
+.techno-work {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -146,7 +148,7 @@ body {
   color: #434455;
 }
 .footer-img {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -154,11 +156,15 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--primary-brand);
 }
 .footer-studio {
   color: var(--cloud);
   background: var(--navy-blue);
 }
+
+/*========PORTFOLIO===========*/
+
 .all-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -191,6 +197,8 @@ body {
 }
 .menu-text {
   color: var(--navy-blue);
+  font-size: 20px;
+  line-height: 1, 20;
 }
 .menu-letter {
   color: #434455;
